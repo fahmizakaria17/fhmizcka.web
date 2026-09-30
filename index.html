@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Data Diri</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Grid Pola Bergerak -->
+    <div class="bg-grid"></div>
+
+    <!-- Background Orbs (Pendaran Warna Latar) -->
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+
+    <!-- Element Animasi Garis & Lingkaran Cahaya Background -->
+    <div class="bg-lines">
+        <!-- Garis-Garis Cahaya -->
+        <div class="beam beam-1"></div>
+        <div class="beam beam-2"></div>
+        <div class="beam beam-3"></div>
+        <div class="beam beam-4"></div>
+
+        <!-- Lingkaran Gelombang Bercahaya -->
+        <div class="pulse-ring ring-1"></div>
+        <div class="pulse-ring ring-2"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <a class="brand" href="#home">
+            PORTFOLIO
+        </a>
+
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#education">Pendidikan</a>
+            <a href="#achievements">Prestasi</a>
+        </nav>
+
+        <a class="nav-btn" href="#contact">
+            Kontak ↗
+        </a>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero reveal" id="home">
+
+        <div class="hero-copy">
+
+            <div class="eyebrow">
+                <span></span>
+                PERSONAL PROFILE
+            </div>
+
+            <h1>
+                Halo, saya<br>
+                <em id="heroName">Fahmi Zakaria</em>
+            </h1>
+
+            <p class="hero-text">
+                Mengenal lebih dekat perjalanan, pendidikan,
+                dan pencapaian yang membentuk diri saya hingga hari ini.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#about" class="primary-btn">
+                    Kenali Saya ↓
+                </a>
+
+                <a href="#achievements" class="text-btn">
+                    Lihat Prestasi ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="photo-frame">
+
+                <img
+                    id="profilePhoto"
+                    src="foto-fahmi.jpeg"
+                    alt="Foto profil"
+                >
+
+                <div class="floating-card">
+
+                    <span class="mini-label">
+                        CURRENTLY
+                    </span>
+
+                    <strong id="currentSchool">
+                        SMKN 1 JAKARTA
+                    </strong>
+
+                    <small id="currentMajor">
+                        TKJ
+                    </small>
+
+                </div>
+
+
+                <div class="year-badge">
+                    20<br>
+                    <b>26</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+    <section class="stats reveal" id="about">
+
+        <div class="stat-box">
+
+            <span class="stat-number" id="age">
+                16
+            </span>
+
+            <span class="stat-unit">
+                tahun
+            </span>
+
+            <p>
+                Usia saat ini
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <span class="stat-number" id="achievementCount">
+                05
+            </span>
+
+            <span class="stat-unit">
+                +
+            </span>
+
+            <p>
+                Pencapaian
+            </p>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <span class="stat-number">
+                01
+            </span>
+
+            <span class="stat-unit">
+                ×
+            </span>
+
+            <p>
+                Personal Journey
+            </p>
+
+        </div>
+
+
+        <div class="quote-stat">
+
+            <span>
+                “
+            </span>
+
+            <p>
+                Terus tumbuh,<br>
+                terus melangkah.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section section-pad reveal">
+
+        <div class="section-kicker">
+            01 / TENTANG SAYA
+        </div>
+
+
+        <div class="about-grid">
+
+            <h2>
+                Seseorang yang<br>
+                <span>selalu ingin berkembang.</span>
+            </h2>
+
+
+            <div class="about-content">
+
+                <p id="bio">
+                    Saya adalah pribadi yang memiliki rasa ingin tahu tinggi,
+                    senang mempelajari hal baru, dan terus berusaha memberikan
+                    hasil terbaik dalam setiap proses yang dijalani.
+                </p>
+
+
+                <div class="identity">
+
+                    <div>
+                        <span>NAMA LENGKAP</span>
+                        <strong id="fullName">
+                            FAHMI ZAKARIA
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span>UMUR</span>
+                        <strong id="ageDetail">
+                            16 Tahun
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span>ASAL SEKOLAH</span>
+                        <strong id="schoolDetail">
+                            SMKN 1 JAKARTA
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span>JURUSAN</span>
+                        <strong id="majorDetail">
+                            TKJ
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+    <section
+        class="education section-pad reveal"
+        id="education"
+    >
+
+        <div class="section-kicker">
+            02 / PERJALANAN PENDIDIKAN
+        </div>
+
+
+        <div class="section-heading">
+
+            <h2>
+                Dari langkah pertama<br>
+                hingga <span>sekarang.</span>
+            </h2>
+
+            <p>
+                Setiap jenjang menjadi bagian dari cerita
+                yang membentuk saya.
+            </p>
+
+        </div>
+
+
+        <div
+            class="timeline"
+            id="timeline"
+        ></div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+    <section
+        class="achievements section-pad reveal"
+        id="achievements"
+    >
+
+        <div class="section-kicker">
+            03 / PRESTASI & PENCAPAIAN
+        </div>
+
+
+        <div class="achievement-head">
+
+            <h2>
+                Hal-hal yang<br>
+                <span>pernah saya raih.</span>
+            </h2>
+
+            <p>
+                Beberapa pencapaian yang menjadi bagian
+                dari proses belajar dan berkembang.
+            </p>
+
+        </div>
+
+
+        <div
+            class="achievement-list"
+            id="achievementList"
+        ></div>
+
+    </section>
+
+
+    <!-- ================= CLOSING ================= -->
+    <section
+        class="closing section-pad reveal"
+        id="contact"
+    >
+
+        <div class="closing-mark">
+            →
+        </div>
+
+
+        <div>
+
+            <span class="section-kicker">
+                LET'S CONNECT
+            </span>
+
+            <h2>
+                Terima kasih sudah<br>
+                <span>berkunjung.</span>
+            </h2>
+           
+            
+
+        </div>
+
+
+        <div class="closing-meta">
+
+            <p>
+                PERSONAL PORTFOLIO
+            </p>
+
+            <strong id="contactName">
+                Fahmi Zakaria
+            </strong>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <span>
+            © 2026
+            <b id="footerName">
+                Fahmi Zakaria
+            </b>
+        </span>
+
+        <span>
+           Dibuat oleh @fhmizakaa. ✦
+        </span>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
